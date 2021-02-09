@@ -22,7 +22,6 @@
                 margin: 30px auto 0;
                 width: 200px;
                 height: auto;
-                // padding-left: 30px;
             }
             
             .menu-category {
@@ -40,14 +39,11 @@
                 list-style: none;
 
                 li {
-                    // background-color: #FAECEC;
-                    // background-color: #FFB7B7;
                     background-color: $brown;
                     padding: 0 0 20px 30px; 
 
                     a {
                         text-decoration: none;
-                        // color: black;
                         color: white;
                     }
                 }
@@ -58,26 +54,10 @@
             }
 
             .photo {
-                // width: 300px;
                 width: 100%;
                 height:  auto;
                 padding-bottom: 20px;
             }
-
-            // .sashimi-photo {
-            //     width: 200px;
-            //     height:  auto;
-            // }
-
-            // .nanban-photo2 {
-            //     width: 200px;
-            //     height:  auto;
-            // }
-
-            // .torikara-photo {
-            //     width: 200px;
-            //     height:  auto;
-            // }
         }
     }
 }    

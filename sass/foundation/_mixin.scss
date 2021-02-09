@@ -1,16 +1,6 @@
 // breakpoints
-// $sm: 710px;
-// $md: 1100px;
 $md: 710px;
-// $lg: 1920px;
 $lg: 1110px;
-
-//スマホ用
-// @mixin sm {
-//     @media (max-width: $sm) {
-//         @content;
-//     }
-// }
 
 //iPad用
 @mixin md {
@@ -43,7 +33,6 @@ $lg: 1110px;
     box-shadow: 3px 3px 3px gray;
 
             &:active {
-                // transform: translateX(5px);/*右に動く*/
                 transform: translateY(3px);/*下に動く*/
                 box-shadow: 0 0 0;
             }

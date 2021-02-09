@@ -1,14 +1,9 @@
 // @include sm {
     //page-front
     footer {
-        // background-color: $brown;
-        background-color: #C7C7C7;
-        background-color: #C1C0C0;
-        background-color: #BFBFBF;
+        
         background-color: gray;
         text-align: center;
-        // height: 250px;
-        // width: 100%;
 
         .logo {
             display: inline-block;
@@ -20,31 +15,9 @@
         small {
             display: inline-block;
             color: white;
-            // background-color: $brown;
-            // background-color: gray;
-            background-color: #C1C0C0;
             background-color: gray;
             height: 100px;
             width: 100%;
             line-height: 100px;
-            // margin-bottom: 200px;
-            // vertical-align: middle;
-            // margin-top: 80px;
-            // margin-top: 200px;
         }
     }
-// }
-
-// @include md {
-    //page-front
-//     footer {
-//         height: 250px;
-//         width: 100%;
-//         color: white;
-//         background-color: $brown;
-//         text-align: center;
-//         line-height: 250px;
-//         margin-top: 80px;
-
-//     }
-// }
