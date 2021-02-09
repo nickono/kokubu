@@ -1,0 +1,43 @@
+.main-wrapper {
+
+    .menu-wrapper {
+
+        .bottom-to-top {
+            // margin: 0 auto 100px;
+            margin-top: 100px;
+            margin-bottom: 150px;
+            font-weight: bold;
+            background-color: $brown;
+            // font-size: 25px;
+            width: 180px;
+            padding: 6px 15px;
+            border-radius: 25px;
+            // text-align: center;
+
+            a {
+                text-decoration: none;
+                color: #FAF2F2;
+                background-color: $brown;
+            }
+
+        }
+        .take-out-menu {    
+            font-size: 35px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+        }
+    }
+}
+
+@include md {
+    .main-wrapper {
+
+        .menu-wrapper {
+
+            .take-out-menu {    
+                font-size: 40px;
+            }
+        }
+    }
+}

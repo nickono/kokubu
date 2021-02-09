@@ -1,0 +1,68 @@
+// breakpoints
+// $sm: 710px;
+// $md: 1100px;
+$md: 710px;
+// $lg: 1920px;
+$lg: 1110px;
+
+//スマホ用
+// @mixin sm {
+//     @media (max-width: $sm) {
+//         @content;
+//     }
+// }
+
+//iPad用
+@mixin md {
+    @media (min-width: $md) {
+        @content;
+    }
+}
+
+//PC用
+@mixin lg {
+    @media (min-width: $lg) {
+        @content;
+    }
+}
+
+//button
+@mixin button {
+    display: inline-block;
+    position: absolute;
+    top: 70%;
+    left: 28%;
+    color: white;
+    background-color: $red;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 45%;
+    padding: 3px 5px;
+    background: linear-gradient(to top right,#7E1111, #FC2222);
+    text-decoration: none;
+    box-shadow: 3px 3px 3px gray;
+
+            &:active {
+                // transform: translateX(5px);/*右に動く*/
+                transform: translateY(3px);/*下に動く*/
+                box-shadow: 0 0 0;
+            }
+}
+
+@mixin button-tb {
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    color: white;
+    background-color: $red;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 22%;
+    padding: 3px 15px;
+    background: linear-gradient(to top right,#7E1111, #FC2222);
+
+        &:active {
+            transform: translateY(3px);/*下に動く*/
+            box-shadow: 0 0 0;
+        }
+}

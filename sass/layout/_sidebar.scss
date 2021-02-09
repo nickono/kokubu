@@ -1,0 +1,83 @@
+.side-bar {
+    display: none;
+}
+
+@include lg {
+
+    .main-wrapper {
+        display: flex;
+
+        .contents-wrapper {
+            width: 78%;
+        }
+
+        .side-bar {
+            display: block;
+            width: 22%;
+            height: auto;
+            background-color: $brown;
+            
+            .logo {
+                display: block;
+                margin: 30px auto 0;
+                width: 200px;
+                height: auto;
+                // padding-left: 30px;
+            }
+            
+            .menu-category {
+                padding: 50px 0 30px 50px;
+                
+                
+                a {
+                    text-decoration: none;
+                    font-size: 3vw;
+                    color: white;
+                }
+            }
+
+            ul {
+                list-style: none;
+
+                li {
+                    // background-color: #FAECEC;
+                    // background-color: #FFB7B7;
+                    background-color: $brown;
+                    padding: 0 0 20px 30px; 
+
+                    a {
+                        text-decoration: none;
+                        // color: black;
+                        color: white;
+                    }
+                }
+
+                .beverage {
+                    margin-bottom: 50px;
+                }
+            }
+
+            .photo {
+                // width: 300px;
+                width: 100%;
+                height:  auto;
+                padding-bottom: 20px;
+            }
+
+            // .sashimi-photo {
+            //     width: 200px;
+            //     height:  auto;
+            // }
+
+            // .nanban-photo2 {
+            //     width: 200px;
+            //     height:  auto;
+            // }
+
+            // .torikara-photo {
+            //     width: 200px;
+            //     height:  auto;
+            // }
+        }
+    }
+}    
