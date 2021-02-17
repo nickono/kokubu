@@ -1,0 +1,261 @@
+
+    //page-front
+    .oden {
+        text-align: center;
+        position: relative;
+        margin: 100px auto 0;
+        height: 300px;
+        width: 300px;
+        box-shadow: 3px 3px 5px gray;
+
+        .oden-photo {
+            opacity: 0.5;
+            height: 300px;
+            width: 300px;
+        }
+
+        .kokubu-meibutsu {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: transparent;
+
+            .miso-oden {
+                font-size: 40px;
+                background-color: transparent;
+            }
+        }
+
+        .motto {
+            @include button; 
+        }
+    }
+
+    .jidori {
+        text-align: center;
+        position: relative;
+        margin: 60px auto 0;
+        height: 300px;
+        width: 300px;
+        box-shadow: 3px 3px 5px gray;
+
+
+        .jidori-photo {
+            opacity: 0.5;
+            height: 300px;
+            width: 300px;
+        }
+
+        .miyazaki-meibutsu {
+        position: absolute;
+        top: 20%;
+        left: 22%;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: transparent;
+
+            .jidori-ryori {
+                font-size: 40px;
+                background-color: transparent;
+            }
+        }
+
+        .motto {
+            @include button;
+        }
+    }
+
+    .take-out {
+        text-align: center;
+        position: relative;
+        margin: 60px auto 0;
+        height: 300px;
+        width: 300px;
+        box-shadow: 3px 3px 5px gray;
+
+        .nanban-photo {
+            opacity: 0.5;
+            height: 300px;
+            width: 300px;
+        }
+
+        .omochi-kaeri {
+        position: absolute;
+        top: 23%;
+        left: 18%;
+        font-size: 40px;
+        font-weight: bold;
+        background-color: transparent;
+        }
+
+        .motto {
+            @include button;
+        }
+    }
+
+    .access {
+        text-align: center;
+        position: relative;
+        margin: 60px auto 100px;
+        height: 300px;
+        width: 300px;
+        box-shadow: 3px 3px 5px gray;
+
+        .map-photo {
+            opacity: 0.8;
+            height: 300px;
+            width: 300px;
+        }
+
+        .ikikata {
+        position: absolute;
+        top: 23%;
+        left: 23%;
+        font-size: 40px;
+        font-weight: bold;
+        background-color: transparent;
+        }
+
+        .motto {
+            @include button;
+        }
+    }
+
+
+@include md {
+    //page-front
+    .oden {
+        text-align: left;
+        position: relative;
+        margin: 120px auto 0;
+        height: 300px;
+        width: 600px;
+        background-color: whitesmoke;
+
+        .oden-photo {
+            opacity: 1;
+            height: 300px;
+            width: 300px;
+        }
+
+        .kokubu-meibutsu {
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        font-size: 30px;
+        // background-color: whitesmoke;
+
+            .miso-oden {
+                font-size: 40px;
+                background-color: whitesmoke;
+            }
+        }
+
+        .motto {
+            @include button-tb;
+        }
+    }
+
+    .jidori {
+        text-align: left;
+        position: relative;
+        margin: 80px auto 0;
+        height: 300px;
+        width: 600px;
+        background-color: whitesmoke;
+
+        .jidori-photo {
+            opacity: 1;
+            height: 300px;
+            width: 300px;
+        }
+
+        .miyazaki-meibutsu {
+        position: absolute;
+        top: 20%;
+        left: 62%;
+        font-size: 30px;
+
+            .jidori-ryori {
+                font-size: 40px;
+                background-color: whitesmoke;
+            }
+        }
+
+        .motto {
+            @include button-tb;
+        }
+    }
+
+    .take-out {
+        text-align: left;
+        position: relative;
+        margin: 80px auto 0;
+        height: 300px;
+        width: 600px;
+        background-color: whitesmoke;
+
+        .nanban-photo {
+            opacity: 1;
+            height: 300px;
+            width: 300px;
+        }
+
+        .omochi-kaeri {
+        position: absolute;
+        top: 23%;
+        left: 59%;
+        font-size: 40px;
+        }
+
+        .motto {
+            @include button-tb;
+        }
+    }
+
+    .access {
+        text-align: left;
+        position: relative;
+        margin: 80px auto 120px;
+        height: 300px;
+        width: 600px;
+        background-color: whitesmoke;
+
+        .map-photo {
+            opacity: 1;
+            height: 300px;
+            width: 300px;
+        }
+
+        .ikikata {
+        position: absolute;
+        top: 23%;
+        left: 62%;
+        font-size: 40px;
+        }
+
+        .motto {
+            @include button-tb;
+        }
+    }
+}
+
+@include lg {
+    .oden {
+        margin: 150px auto 0;
+    }
+
+    .jidori {
+        margin: 100px auto 0;
+    }
+
+    .take-out {
+        margin: 100px auto 0;
+    }
+
+    .access {
+        margin: 100px auto 150px;
+    }
+}
