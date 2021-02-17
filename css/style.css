@@ -43,7 +43,7 @@ header .signage .to {
 }
 
 header .signage img {
-  width: 70%;
+  width: 90%;
   height: auto;
 }
 
@@ -79,7 +79,7 @@ header .sogyo {
 }
 
 header .opening {
-  width: 70%;
+  width: 90%;
 }
 
 header .eye-catch {
@@ -145,6 +145,9 @@ header .slider .slider-photo {
   header .sogyo {
     font-size: 4vw;
     padding-left: 5px;
+  }
+  header .opening {
+    width: 70%;
   }
   header .eye-catch {
     padding-top: 80px;
