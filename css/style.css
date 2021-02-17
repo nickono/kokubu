@@ -731,7 +731,7 @@ footer small {
 }
 
 .main-wrapper .menu-wrapper #my-cross {
-  text-align: right;
+  float: right;
   color: black;
   padding: 20px 30px 0 0;
 }
@@ -832,48 +832,63 @@ footer small {
   }
 }
 
-#my-cross {
+.contents-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contents-wrapper #my-cross {
   text-align: right;
   float: right;
   color: black;
   padding: 20px 30px 0 0;
 }
 
-.location {
+.contents-wrapper .location {
   padding: 100px 50px;
   font-size: 40px;
 }
 
-.map {
+.contents-wrapper .map {
   width: 100%;
-  height: 500px;
-  padding: 50px 30px;
+  height: 800px;
+  padding: 10%;
   background-color: #FAF2F2;
   display: block;
   margin: 0 auto;
 }
 
-.address {
+.contents-wrapper .address {
   padding: 100px 50px;
 }
 
 @media (min-width: 710px) {
-  .location {
+  .contents-wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .contents-wrapper .location {
     padding: 100px;
   }
-  .map {
-    padding: 80px 50px;
+  .contents-wrapper .map {
+    padding: 10%;
     height: 800px;
+    width: 100%;
   }
-  .address {
+  .contents-wrapper .address {
     padding: 100px;
   }
 }
 
 @media (min-width: 1110px) {
-  .map {
-    padding: 100px;
-    height: 1000px;
+  .contents-wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .contents-wrapper .map {
+    width: 90%;
+    padding: 10%;
+    height: 800px;
   }
 }
 
