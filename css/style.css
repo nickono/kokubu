@@ -872,6 +872,10 @@ footer small {
   padding: 100px 50px;
 }
 
+.contents-wrapper .address .red {
+  color: red;
+}
+
 @media (min-width: 710px) {
   .contents-wrapper {
     width: 70%;
